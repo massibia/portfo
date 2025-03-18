@@ -24,7 +24,8 @@ import csv
 app = Flask(__name__)
 print(__name__)
 
-@app.route("/index.html")
+#@app.route("/index.html")
+@app.route("/")
 def my_home():
     return render_template("index.html")
 
